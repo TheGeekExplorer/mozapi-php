@@ -15,7 +15,7 @@
 
     // Query the API
     $r = $__MOZAPI->query(array(
-        'url'  => 'http://www.booker.co.uk', 
+        'url'  => 'http://www.markgreenall.co.uk', 
         'mode' => array(
             'Title' => 1,
             'Canonical' => 1,
