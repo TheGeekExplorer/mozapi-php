@@ -8,8 +8,8 @@
     // Prime with Credentials
     $__MOZAPI->setCredentials(
         $__MOZAPI->signFlow(array(
-            'accessId'  => 'member-8d8a9f5907',
-            'secretKey' => '7bfa73c021e576c3ef5a27c3faf052c1'
+            'accessId'  => '',
+            'secretKey' => ''
         ))
     );
 
