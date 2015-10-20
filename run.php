@@ -2,40 +2,6 @@
 
 include_once('mozapi.php');
 
-
-class MozAPI {
-
-    # Provide your API details
-    private $accessID = "";     # Provide your AccessID
-    private $secretKey = "";    # Provide your SecretKey
-    private $moz;
-
-    # Initiate the connection
-    public function initialise ()
-    {
-        # Define new object
-        $this->moz = new mozapicore;
-
-        # Prime with Credentials
-        $this->moz->setCredentials(
-
-        # Sign the request
-            $this->moz->signFlow(array(
-                'accessId' => '',      # Provide your AccessID
-                'secretKey' => ''       # Provide your SecretKey
-            ))
-        );
-    }
-
-    # Query the Moz API
-    public function queryAPI ($query)
-    {
-        return $this->$moz->query(
-            $query
-        );
-    }
-}
-
 /**
  * Create a new MozAPI object, and query the API
  * for a domain name.
