@@ -1,6 +1,6 @@
 <?php
     
-    class mozapi
+    class mozapicore
     {
         private $accessId  = '';
         private $expires   = 0;
